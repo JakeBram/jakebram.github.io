@@ -2,10 +2,12 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../dps_logo.png'; // Adjust the path if necessary
 
 function Navigation() {
   return (
     <nav>
+      <img src={logo} alt="Defender Logo" className="logo" />
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/products">Products</Link></li>
