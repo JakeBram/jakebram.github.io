@@ -1,0 +1,25 @@
+/* ProductsMainContent.css */
+
+.products-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .products-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .products-container label {
+    margin-right: 10px;
+  }
+  
+  .products-container select {
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .products-container p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  

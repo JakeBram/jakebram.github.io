@@ -1,0 +1,39 @@
+/* Navigation.css */
+
+/* Center the nav container */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Center the logo within the nav */
+  nav .logo {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 20px; /* Space between logo and links */
+  }
+  
+  /* Center the list and remove default styling */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the list items */
+  nav ul li {
+    margin: 0;
+  }
+  
+  /* Style the links */
+  nav ul li a {
+    text-decoration: none;
+    color: #282c34; /* Adjust color as needed */
+    font-size: 18px; /* Adjust size as needed */
+  }
+  

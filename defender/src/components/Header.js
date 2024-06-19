@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../small_logo.png'; // Adjust the path if necessary
+import "./Header.css";
 
 function Header() {
   return (

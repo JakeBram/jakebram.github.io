@@ -3,6 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../dps_logo.png'; // Adjust the path if necessary
+import "./Navigation.css";
 
 function Navigation() {
   return (

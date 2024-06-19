@@ -1,0 +1,19 @@
+/* Footer.css */
+
+.footer {
+    width: 100%; /* Make the footer cover the full width */
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .logo {
+    width: 300px;
+    height: auto;
+  }
+  
