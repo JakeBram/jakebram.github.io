@@ -1,14 +1,14 @@
-/* global.css */
+/* Global.css */
 
-/* Reset default margin and padding */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  /* Global styles */
-  body {
-    font-family: Arial, sans-serif;
-  }
-  
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  font-family: Arial, sans-serif; /* Apply a global font */
+}
+
+h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

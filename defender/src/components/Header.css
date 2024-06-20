@@ -1,25 +1,52 @@
 /* Header.css */
 
+.header-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px; /* Add padding to create gaps on both sides */
+  overflow: hidden; /* Prevent overflow */
+}
+
 .header {
-    background-color: #282c34;
-    color: white;
-    padding: 20px;
-    position: relative;
-    width: 100%;
-  }
-  
-  .logo-left {
-    position: absolute;
-    left: 20px; /* Adjust the distance from the left edge */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px; /* Adjust the size as needed */
-    height: auto;
-  }
-  
-  /* Title styles */
-  .title {
-    margin: 0;
-    text-align: center;
-  }
-  
+  background-color: white;
+  color: #282c34;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Ensure the header doesn't overflow */
+  box-sizing: border-box;
+  border-bottom: 3px solid transparent; /* This will create space for the line */
+}
+
+.header .logo-container {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header img.logo {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  cursor: pointer;
+}
+
+.header .title {
+  margin: 0;
+  font-size: 24px; /* Adjust size as needed */
+  font-weight: bold;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: -3px; /* Align with the border-bottom space */
+  left: 20px; /* Adjust left gap */
+  right: 20px; /* Adjust right gap */
+  height: 3px; /* Adjust line height as needed */
+  background-color: black;
+  box-sizing: border-box;
+}
