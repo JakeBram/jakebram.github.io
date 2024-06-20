@@ -15,7 +15,7 @@ function Header() {
             <img src={logo} alt="Defender Logo" className="logo" />
           </Link>
         </div>
-        <h1 className="title">Defender</h1>
+        <h1 className="title">Defender Police Supply</h1>
       </header>
     </div>
   );
