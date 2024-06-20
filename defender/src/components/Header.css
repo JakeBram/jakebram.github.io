@@ -36,7 +36,8 @@
 
 .header .title {
   margin: 0;
-  font-size: 24px; /* Adjust size as needed */
+  font-family: 'DefenderFont', Arial, sans-serif; /* Use the custom font */
+  font-size: 36px; /* Adjust size as needed */
   font-weight: bold;
 }
 

@@ -1,14 +1,18 @@
 /* Global.css */
 
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden; /* Prevent horizontal overflow */
-  font-family: Arial, sans-serif; /* Apply a global font */
+@font-face {
+  font-family: 'Antium';
+  src: url('./fonts/Antium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-h1, h2, h3, p, ul, li {
+body {
+  font-family: 'Antium', Arial, sans-serif;
+}
+
+.header .title {
+  font-family: 'Antium', Arial, sans-serif;
+  font-size: 24px;
   margin: 0;
-  padding: 0;
-  text-align: center;
 }
