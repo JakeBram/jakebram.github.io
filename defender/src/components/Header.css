@@ -1,53 +1,43 @@
 /* Header.css */
 
-.header-container {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0 20px; /* Add padding to create gaps on both sides */
-  overflow: hidden; /* Prevent overflow */
-}
-
 .header {
   background-color: white;
   color: #282c34;
-  padding: 20px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  padding: 20px;
   width: 100%;
-  max-width: 100%; /* Ensure the header doesn't overflow */
+  text-align: center;
   box-sizing: border-box;
-  border-bottom: 3px solid transparent; /* This will create space for the line */
-}
-
-.header .logo-container {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.header img.logo {
-  width: 50px; /* Adjust size as needed */
-  height: auto;
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .header .title {
   margin: 0;
-  font-family: 'DefenderFont', Arial, sans-serif; /* Use the custom font */
-  font-size: 36px; /* Adjust size as needed */
+  font-size: 24px;
   font-weight: bold;
 }
 
-.header::after {
+.header img.logo {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  position: absolute;
+  left: 20px; /* 20px buffer from the left edge of the header */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+  z-index: 1; /* Ensure the logo is above other elements */
+}
+
+
+
+.header::before {
   content: '';
   position: absolute;
-  bottom: -3px; /* Align with the border-bottom space */
-  left: 20px; /* Adjust left gap */
-  right: 20px; /* Adjust right gap */
-  height: 3px; /* Adjust line height as needed */
+  bottom: -3px; /* Adjust position if needed */
+  left: 20px;
+  right: 20px;
+  height: 3px;
   background-color: black;
-  box-sizing: border-box;
 }
