@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import './ProductsContent.css';
 
 const ProductsContent = () => {
-  const [selectedCategory, setSelectedCategory] = useState('Category 1');
+  const [selectedCategory, setSelectedCategory] = useState('ALPR');
 
   const handleChange = (event) => {
     setSelectedCategory(event.target.value);
@@ -12,14 +12,14 @@ const ProductsContent = () => {
 
   const getCaption = () => {
     switch (selectedCategory) {
-      case 'Category 1':
-        return 'This is the caption for Category 1.';
-      case 'Category 2':
-        return 'This is the caption for Category 2.';
-      case 'Category 3':
-        return 'This is the caption for Category 3.';
-      case 'Category 4':
-        return 'This is the caption for Category 4.';
+      case 'ALPR':
+        return 'We supply mobile ALPR systems, fixed ALPR cameras, and the office software.';
+      case 'Ballistics':
+        return 'We supply body armor, as well as ballistic shields and panels.';
+      case 'Optics':
+        return 'We carry ATN scopes in a thermal, night vision, and day & night version.';
+      case 'Cameras':
+        return 'We carry Arlo indoor and outdoor cameras, and Verkada security cameras.';
       default:
         return '';
     }
@@ -30,10 +30,10 @@ const ProductsContent = () => {
       <h2>Check out our Products</h2>
       <p>Explore our range of products.</p>
       <select value={selectedCategory} onChange={handleChange}>
-        <option value="Category 1">Category 1</option>
-        <option value="Category 2">Category 2</option>
-        <option value="Category 3">Category 3</option>
-        <option value="Category 4">Category 4</option>
+        <option value="ALPR">ALPR</option>
+        <option value="Ballistics">Ballistics</option>
+        <option value="Optics">Optics</option>
+        <option value="Cameras">Cameras</option>
       </select>
       <p>{getCaption()}</p>
     </div>
