@@ -22,7 +22,6 @@
 .header img.logo {
   width: 50px;
   height: auto;
-  cursor: pointer;
   position: absolute;
   left: 20px; /* 20px buffer from the left edge of the header */
   top: 50%; /* Center vertically */
