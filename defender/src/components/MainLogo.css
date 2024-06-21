@@ -1,0 +1,14 @@
+/* MainLogo.css */
+
+.main-logo-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .main-logo {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+  }
+  

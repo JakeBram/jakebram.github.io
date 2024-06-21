@@ -5,11 +5,10 @@
   color: #282c34;
   padding: 20px;
   width: 100%;
-  text-align: center;
-  box-sizing: border-box;
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Center items horizontally */
   align-items: center;
+  box-sizing: border-box;
   position: relative;
 }
 
@@ -17,6 +16,7 @@
   margin: 0;
   font-size: 24px;
   font-weight: bold;
+  z-index: 0; /* Ensure the title stays below the logo and navigation */
 }
 
 .header img.logo {
@@ -30,7 +30,13 @@
   z-index: 1; /* Ensure the logo is above other elements */
 }
 
-
+.header-navigation {
+  position: absolute;
+  right: 20px; /* Position the navigation component on the right */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* Ensure the navigation is above other elements */
+}
 
 .header::before {
   content: '';
