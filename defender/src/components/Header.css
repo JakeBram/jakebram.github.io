@@ -46,3 +46,10 @@
   height: 3px;
   background-color: black;
 }
+
+/* Hide title on small screens */
+@media screen and (max-width: 750px) {
+  .header .title {
+    color: white;
+  }
+}
