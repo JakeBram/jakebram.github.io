@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import './ProductsContent.css';
 
 const ProductsContent = () => {
-  const [selectedCategory, setSelectedCategory] = useState('ALPR');
+  const [selectedCategory, setSelectedCategory] = useState('ALPR'); // state to display first
 
   const handleChange = (event) => {
     setSelectedCategory(event.target.value);

@@ -4,7 +4,7 @@ import "./MainContent.css";
 function MainContent() {
   return (
     <main className="main-content">
-      <h2>Welcome to Defender!</h2>
+      <h2>Welcome to Defender</h2>
       <p>Your source for ALPR and tactical equipmet for Law Enforcement</p>
     </main>
   );
