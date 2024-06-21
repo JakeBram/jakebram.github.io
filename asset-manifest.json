@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9763899e.css",
+    "main.js": "/static/js/main.d0f8b60d.js",
+    "static/media/Antium.ttf": "/static/media/Antium.d7c62143be357bb64f92.ttf",
+    "static/media/dps_logo.png": "/static/media/dps_logo.0c8fc03b296d53d1fd1f.png",
+    "static/media/small_logo.png": "/static/media/small_logo.2e635e9b78edfca1f3ec.png",
+    "index.html": "/index.html",
+    "main.9763899e.css.map": "/static/css/main.9763899e.css.map",
+    "main.d0f8b60d.js.map": "/static/js/main.d0f8b60d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9763899e.css",
+    "static/js/main.d0f8b60d.js"
+  ]
+}
