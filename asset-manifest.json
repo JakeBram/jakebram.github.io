@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/defender/static/css/main.aa41bc9c.css",
-    "main.js": "/defender/static/js/main.83fbf059.js",
-    "static/media/arlo.png": "/defender/static/media/arlo.18b6266be62cafb24a00.png",
+    "main.js": "/defender/static/js/main.d18c7d51.js",
     "static/media/Antium.ttf": "/defender/static/media/Antium.d7c62143be357bb64f92.ttf",
     "static/media/verkada.png": "/defender/static/media/verkada.a8078b1cc95f381ff48d.png",
     "static/media/pips.png": "/defender/static/media/pips.215c139c53ba7d6e4da5.png",
@@ -10,10 +9,10 @@
     "static/media/small_logo.png": "/defender/static/media/small_logo.2e635e9b78edfca1f3ec.png",
     "index.html": "/defender/index.html",
     "main.aa41bc9c.css.map": "/defender/static/css/main.aa41bc9c.css.map",
-    "main.83fbf059.js.map": "/defender/static/js/main.83fbf059.js.map"
+    "main.d18c7d51.js.map": "/defender/static/js/main.d18c7d51.js.map"
   },
   "entrypoints": [
     "static/css/main.aa41bc9c.css",
-    "static/js/main.83fbf059.js"
+    "static/js/main.d18c7d51.js"
   ]
 }
