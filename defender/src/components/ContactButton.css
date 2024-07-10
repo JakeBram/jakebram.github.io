@@ -1,27 +1,4 @@
-/* ContactContent.css */
-
-.contact-content {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .contact-content h2 {
-    color: #61dafb;
-  }
-  
-  .contact-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px; /* Space between text and button */
-    padding: 20px;
-  }
-  
-  .contact-text {
-    margin: 0;
-  }
-  
-  .contact-button {
+.contact-button {
     background-color: #61dafb;
     color: white;
     border: none;
@@ -31,12 +8,11 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
+    }
   
   .contact-button:hover {
     background-color: #21a1f1;
   }
-  
   .email {
     color: #61dafb;
     cursor: pointer;
@@ -46,4 +22,5 @@
   .email:hover {
     color: #21a1f1;
   }
+  
   
