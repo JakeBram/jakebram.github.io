@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/defender/static/css/main.06959c0e.css",
-    "main.js": "/defender/static/js/main.4d8afe6b.js",
+    "main.css": "/defender/static/css/main.aa41bc9c.css",
+    "main.js": "/defender/static/js/main.83fbf059.js",
+    "static/media/arlo.png": "/defender/static/media/arlo.18b6266be62cafb24a00.png",
     "static/media/Antium.ttf": "/defender/static/media/Antium.d7c62143be357bb64f92.ttf",
+    "static/media/verkada.png": "/defender/static/media/verkada.a8078b1cc95f381ff48d.png",
+    "static/media/pips.png": "/defender/static/media/pips.215c139c53ba7d6e4da5.png",
     "static/media/dps_logo.png": "/defender/static/media/dps_logo.0c8fc03b296d53d1fd1f.png",
     "static/media/small_logo.png": "/defender/static/media/small_logo.2e635e9b78edfca1f3ec.png",
     "index.html": "/defender/index.html",
-    "main.06959c0e.css.map": "/defender/static/css/main.06959c0e.css.map",
-    "main.4d8afe6b.js.map": "/defender/static/js/main.4d8afe6b.js.map"
+    "main.aa41bc9c.css.map": "/defender/static/css/main.aa41bc9c.css.map",
+    "main.83fbf059.js.map": "/defender/static/js/main.83fbf059.js.map"
   },
   "entrypoints": [
-    "static/css/main.06959c0e.css",
-    "static/js/main.4d8afe6b.js"
+    "static/css/main.aa41bc9c.css",
+    "static/js/main.83fbf059.js"
   ]
 }
