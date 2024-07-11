@@ -1,0 +1,7 @@
+.main-content {
+    padding: 20px;
+    margin: 20px auto; /* Center the content horizontally */
+    max-width: 1200px; /* Optional: set a max width to keep the content from getting too wide */
+    box-sizing: border-box;
+  }
+  

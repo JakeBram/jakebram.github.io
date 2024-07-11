@@ -6,13 +6,16 @@ import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
 import MainLogo from '../components/MainLogo';
 import ALPRDescription from '../components/ALPRDescription';
+import "./Home.css"
 
 function Home() {
   return (
     <div>
       <Header />
       <MainContent />
-      <ALPRDescription />
+      <div className='main-content'>
+        <ALPRDescription/>
+      </div>
       <MainLogo />
       <Navigation />
       <Footer />
