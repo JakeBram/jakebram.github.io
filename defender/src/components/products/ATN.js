@@ -8,7 +8,7 @@ const ATN = () => {
       <img src={atnLogo} alt="ATN Logo" className="product-logo" />
       <div className="product-text">
         <h2>ATN</h2>
-        <p>ATN specializes in optics and firearm scopes. We carry several including thermal and night vision</p>
+        <p>ATN specializes in optics and firearm scopes. We carry several including thermal and night vision.</p>
       </div>
     </div>
   );
