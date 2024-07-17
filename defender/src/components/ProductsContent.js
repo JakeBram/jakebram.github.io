@@ -1,5 +1,4 @@
 import React from 'react';
-//import Arlo from './products/Arlo';          COMPONENT MADE BUT NOT IN USE
 import ATN from './products/ATN';
 import Neology from './products/Neology';
 import Verkada from './products/Verkada';
