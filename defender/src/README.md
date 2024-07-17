@@ -1,4 +1,4 @@
-## This React Application was developed for Defender Police Supply, LLC.
+# React Application, developed for Defender Police Supply, LLC.
 
 The process of development can be replicated by cloning this git repository, ensuring all dependencies in package.json are installed on your machine, and running 'npm start' in the directory to run on a local server. Dependencies listed include depencencies necessary for full web deployment. For this, ensure the scripts in package.json matches this repository, and run 'npm run build' to create a development build, and 'npm run deploy' to deploy it to github pages.
 
@@ -6,4 +6,4 @@ Similar applications can be developed incredibly easily by copying the boiler co
 
 Feel free to clone this repository as a starting place for a new project, or for educational purposes.
 
-# Repository Owner and Author of Code: Jake Bram, Web Development Intern, Defender Police Supply
+### Repository Owner and Author of Code: Jake Bram, Web Development Intern, Defender Police Supply
