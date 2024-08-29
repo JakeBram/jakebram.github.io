@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d99e2fd.css",
-    "main.js": "/static/js/main.c430badc.js",
-    "static/media/Antium.ttf": "/static/media/Antium.d7c62143be357bb64f92.ttf",
-    "static/media/verkada.png": "/static/media/verkada.a8078b1cc95f381ff48d.png",
-    "static/media/rts.png": "/static/media/rts.5cdd93d618b4519b129e.png",
-    "static/media/dps_logo.png": "/static/media/dps_logo.0c8fc03b296d53d1fd1f.png",
-    "static/media/neology.png": "/static/media/neology.5aa2150acf3217b642e0.png",
-    "static/media/small_logo.png": "/static/media/small_logo.2e635e9b78edfca1f3ec.png",
-    "index.html": "/index.html",
-    "main.8d99e2fd.css.map": "/static/css/main.8d99e2fd.css.map",
-    "main.c430badc.js.map": "/static/js/main.c430badc.js.map"
+    "main.css": "/defender/static/css/main.435addb0.css",
+    "main.js": "/defender/static/js/main.1c684f67.js",
+    "static/media/Antium.ttf": "/defender/static/media/Antium.d7c62143be357bb64f92.ttf",
+    "static/media/verkada.png": "/defender/static/media/verkada.a8078b1cc95f381ff48d.png",
+    "static/media/rts.png": "/defender/static/media/rts.5cdd93d618b4519b129e.png",
+    "static/media/dps_logo.png": "/defender/static/media/dps_logo.0c8fc03b296d53d1fd1f.png",
+    "static/media/neology.png": "/defender/static/media/neology.5aa2150acf3217b642e0.png",
+    "static/media/small_logo.png": "/defender/static/media/small_logo.2e635e9b78edfca1f3ec.png",
+    "index.html": "/defender/index.html",
+    "main.435addb0.css.map": "/defender/static/css/main.435addb0.css.map",
+    "main.1c684f67.js.map": "/defender/static/js/main.1c684f67.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d99e2fd.css",
-    "static/js/main.c430badc.js"
+    "static/css/main.435addb0.css",
+    "static/js/main.1c684f67.js"
   ]
 }
