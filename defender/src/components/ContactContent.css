@@ -6,7 +6,7 @@
   }
   
   .contact-content h2 {
-    color: #61dafb;
+    color: #1248f8;
   }
   
   .contact-container {
@@ -22,7 +22,7 @@
   }
   
   .contact-button {
-    background-color: #61dafb;
+    background-color: #1248f8;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -38,12 +38,12 @@
   }
   
   .email {
-    color: #61dafb;
+    color: #1248f8;
     cursor: pointer;
     text-decoration: underline;
   }
   
   .email:hover {
-    color: #21a1f1;
+    color: #002ab6;
   }
   
